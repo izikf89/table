@@ -1,0 +1,77 @@
+.table-img-container {
+  display: flex;
+  max-width: 1400px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.ext-container {
+  text-align: right;
+
+  button {
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+
+  .filter-container {
+    float: left;
+    padding-left: 30px;
+  }
+}
+
+.right-side {
+  height: 40vw;
+  max-height: 600px;
+}
+
+.table-container {
+  max-height: calc(100% - 56px);
+  overflow: auto;
+  width: 800px;
+}
+
+table {
+  overflow: auto;
+}
+
+.left-img {
+    height: 40vw;
+    max-height: 600px;
+  }
+
+tr:hover {
+  background-color: rgb(188, 209, 154) !important;
+}
+
+.img-td {
+  width: 50px;
+}
+
+.mat-column-id {
+  width: 40px;
+}
+
+.mat-column-title {
+  width: 490px;
+}
+
+.mat-column-albumId {
+  width: 60px;
+}
+
+.mat-column-url {
+  width: 80px;
+}
+
+.mat-column-btn {
+  width: 65px;
+}
+
+.icon-delete,
+.icon-save {
+  margin-left: 13px;
+}
+
+.edit-title {
+  width: 90%;
+}
