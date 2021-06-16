@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ActiveRowDirective } from '../active-row.directive';
+import { ActiveRowDirective } from './active-row.directive';
 
 
 

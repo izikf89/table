@@ -38,7 +38,7 @@ export class TableComponent implements OnInit {
   }
 
   private subscribeDataSourceUpdate(): void {
-    this.dataService.dataSourceUpdate$.subscribe((data:  MatTableDataSource<ImgData>) => {
+    this.dataService.dataSourceUpdate$.subscribe((data: MatTableDataSource<ImgData>) => {
       this.dataSource = data;
     });
   }
@@ -73,7 +73,7 @@ export class TableComponent implements OnInit {
 
   applyFilter = (event: Event) => this.dataService.applyFilter(event);
   openAddRowDialog = () => this.dataService.openAddRowDialog(this.dataSource.data);
-  onTableScroll = this.dataService.AddGroupRow;  
+  onTableScroll = () => this.dataService.AddGroupRow();
 }
 
 export type ImgDataRow = ImgData & {

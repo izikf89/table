@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { InfiScrollDirective } from '../infi-scroll.directive';
+import { InfiScrollDirective } from './infi-scroll.directive';
 
 
 
